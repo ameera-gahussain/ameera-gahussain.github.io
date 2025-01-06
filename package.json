@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ameera-gahussain.github.io/ameera-gahussain.github.io/",
+  "homepage": "https://ameera-gahussain.github.io/www.ameeragahussain.com/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
