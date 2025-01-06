@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="container">
         <div className="max-w-[62rem] mx-auto">
           <h5 className="h5 text-center">
-            Hi, I&apos;m&nbsp;<span>Ameera</span>&nbsp;& I&apos;m a
+            Hi, I&apos;m&nbsp;<span>Espe</span>&nbsp;& I&apos;m a
           </h5>
           <h1 className="h1 text-center">
             Web&nbsp;
