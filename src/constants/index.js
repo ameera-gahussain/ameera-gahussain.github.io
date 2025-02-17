@@ -67,10 +67,10 @@ export const about = [
   {
     id: "0",
     title: "About Me",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at diam mi. Nam purus ex, viverra eget tristique non, cursus rutrum mauris. Quisque efficitur dui libero, at auctor velit viverra ac. Maecenas aliquam nisl augue. Nulla dolor felis, fringilla nec sodales vel, ultrices sit amet lectus. Vestibulum placerat porttitor magna ut ornare. Proin ut malesuada velit. Etiam imperdiet tellus vitae faucibus porttitor.",
+    text: "Hey there! I'm KnightOwl, a web developer, designer, and graphic artist passionate about bringing creative visions to life online. My journey into code and design began with curiosity and a whole lot of self-driven exploration—think late nights, countless tutorials, and an unstoppable drive to learn. This independent learning style has shaped my diverse skill set, sharpened my problem-solving abilities, and fueled my love for tackling new challenges. I’m always eager to grow, stay ahead of trends, and push creative boundaries. Whether you need a sleek website, a standout logo, or a full brand refresh, let’s collaborate and create something amazing!",
     text2:
       "When I'm not working, I go for long drives, coffee in cafes, madness with my cats and a good curl up with a book.",
-    text3: "Currently working hard  for a Triumph Speed 400.",
+    text3: "Currently working hard for a Triumph Speed 400.",
   },
 ];
 
