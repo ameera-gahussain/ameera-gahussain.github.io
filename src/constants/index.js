@@ -197,8 +197,7 @@ export const projects = [
   {
     id: "4",
     title: "Technical Documentation",
-    description:
-      "Certification  project for freeCodeCamp where 3eikhekjte kjtlejtlejkt lektlrktlrktrlkt.",
+    description: "Certification  project for freeCodeCamp.",
     status: "done",
   },
   {
