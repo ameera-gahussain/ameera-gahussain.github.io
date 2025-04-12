@@ -20,8 +20,8 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "Projects",
-    url: "#projects",
+    title: "Work",
+    url: "#work",
   },
   {
     id: "2",
@@ -35,31 +35,31 @@ export const socials = [
     id: "0",
     title: "Email",
     iconUrl: mail,
-    url: "#",
+    url: "mailto:ameera.gahussain@gmail.com",
   },
   {
     id: "1",
     title: "Github",
     iconUrl: githubSolid,
-    url: "#",
+    url: "https://github.com/ameera-gahussain",
   },
   {
     id: "2",
     title: "LinkedIn",
     iconUrl: linkedinSolid,
-    url: "#",
+    url: "https://www.linkedin.com/in/ameeragahussain",
   },
   {
     id: "3",
     title: "Discord",
     iconUrl: discordSolid,
-    url: "#",
+    url: "https://discordapp.com/users/YOUR_USER_ID",
   },
   {
     id: "4",
     title: "freeCodeCamp",
     iconUrl: freeCCSolid,
-    url: "#",
+    url: "https://www.freecodecamp.org/redknightowl",
   },
 ];
 
@@ -85,7 +85,7 @@ export const techSkills = [
   },
   {
     id: "2",
-    skill: "Phyton",
+    skill: "Python",
   },
   {
     id: "3",
@@ -114,6 +114,39 @@ export const techSkills = [
   {
     id: "9",
     skill: "Procreate",
+  },
+];
+
+export const work = [
+  {
+    id: "0",
+    title: "Sky Academy Website",
+    tasks: "Website concept design",
+    details: "Insert text here",
+  },
+  {
+    id: "1",
+    title: "Elite Global Academy",
+    tasks: "Logo design",
+    details: "Insert text here",
+  },
+  {
+    id: "2",
+    title: "Student Recommended Reading",
+    tasks: "Brochure design",
+    details: "Insert text here",
+  },
+  {
+    id: "3",
+    title: "MoveParkour & MoveParkour Kids",
+    tasks: "Logo design",
+    details: "Insert text here",
+  },
+  {
+    id: "4",
+    title: "Mindful Space",
+    tasks: "Logo design",
+    details: "Insert text here",
   },
 ];
 

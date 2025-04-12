@@ -9,11 +9,10 @@ const Hero = () => {
     >
       <div className="container">
         <div className="max-w-[60rem] mx-auto">
-          <h4 className="h4 text-center">
+          <h3 className="h3 text-center">
             Hi, I&apos;m&nbsp;<span>Ameera</span>&nbsp;& I&apos;m a
-          </h4>
-          <div className="text-7xl font-bold text-center">
-            Web&nbsp;
+          </h3>
+          <div className="text-8xl font-bold text-center">
             <span id="typewriter">
               <Typewriting />
             </span>

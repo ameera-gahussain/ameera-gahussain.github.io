@@ -4,7 +4,7 @@ const Typewriting = () => {
   }
 
   setTimeout(() => {
-    const phrases = ["Developer", "Designer"];
+    const phrases = ["Web Developer", "Web Designer", "Graphic Designer"];
     const el = document.getElementById("typewriter");
 
     let sleepTime = 100;

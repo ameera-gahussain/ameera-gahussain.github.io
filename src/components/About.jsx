@@ -26,7 +26,7 @@ const About = () => {
               </div>
               <div className="mt-3 grid grid-cols-2 gap-2">
                 {techSkills.map((item) => (
-                  <div className="flex flex-wrap" key={item.id}>
+                  <div className="flex flex-nowrap" key={item.id}>
                     <img
                       className="body-2 mt-2"
                       src={arrowRight}

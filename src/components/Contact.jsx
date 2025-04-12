@@ -10,7 +10,7 @@ const Contact = () => {
     >
       <div className="container py-7 lg:py-16 xl:py-20 z-2">
         <div className="container flex justify-center items-center">
-          <div className="max-w-[45rem] mb-8">
+          <div className="max-w-[45rem] mb-8 h-full w-full">
             <h2 className="h2 text-center">./Drop me a message</h2>
             <div className="flex justify-center items-center mt-5">
               <ul className="flex gap-5 flex-wrap">
