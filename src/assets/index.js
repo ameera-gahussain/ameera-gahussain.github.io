@@ -8,6 +8,11 @@ import taskAlt from "./taskAlt.svg";
 import spinnerSolid from "./spinnerSolid.svg";
 import arrowUpBracketSolid from "./arrowUpBracketSolid.svg";
 import upRightSquareSolid from "./upRightSquareSolid.svg";
+import EliteLogoPNG01 from "./EliteLogoPNG01.png";
+import EliteLogoPNG02 from "./EliteLogoPNG02.png";
+import MindfulSpace from "./MindfulSpace.png";
+import MPOriginal from "./MPOriginal.png";
+import readingResource from "./readingResource.png";
 
 import discordSolid from "./socials/discordSolid.svg";
 import freeCCSolid from "./socials/freeCCSolid.svg";
@@ -29,4 +34,9 @@ export {
   spinnerSolid,
   arrowUpBracketSolid,
   upRightSquareSolid,
+  EliteLogoPNG01,
+  EliteLogoPNG02,
+  MindfulSpace,
+  MPOriginal,
+  readingResource,
 };

@@ -10,6 +10,11 @@ import {
   linkedinSolid,
   discordSolid,
   arrowUpBracketSolid,
+  EliteLogoPNG01,
+  EliteLogoPNG02,
+  MindfulSpace,
+  MPOriginal,
+  readingResource,
 } from "../assets";
 
 export const navigation = [
@@ -120,35 +125,113 @@ export const techSkills = [
 export const work = [
   {
     id: "0",
-    title: "Sky Academy Website",
+    title: "Sky Academy Website Design",
     tasks: "Website concept design",
-    details: "Insert text here",
+    skills: "Figma",
+    details:
+      "Celebrating Sky Academy’s reopening with a fresh website—featuring their exciting new Barista Course (because caffeine + education = the perfect blend!).",
+    image: EliteLogoPNG02,
   },
   {
     id: "1",
-    title: "Elite Global Academy",
+    title: "Elite Global Academy Logo Design",
     tasks: "Logo design",
-    details: "Insert text here",
+    skills: "Adobe Fresco, Adobe Illustrator",
+    details:
+      "Designed the brand identity for this ambitious new academy—helping them launch their first center with sleek, aspirational visuals.",
+    image: EliteLogoPNG01,
   },
   {
     id: "2",
-    title: "Student Recommended Reading",
+    title: "English Learning Resources",
     tasks: "Brochure design",
-    details: "Insert text here",
+    skills: "Canva, Adobe Illustrator",
+    details:
+      "Fun, CEFR-aligned English materials for students—packaged for parents to say, ‘Here’s homework you’ll actually want to do!’",
+    image: readingResource,
   },
   {
     id: "3",
-    title: "MoveParkour & MoveParkour Kids",
+    title: "MoveParkour & MoveParkour Kids Logo Design",
     tasks: "Logo design",
-    details: "Insert text here",
+    skills: "Adobe Photoshop, Adobe Illustrator",
+    details:
+      "Designed dynamic logos for two Parkour brands — one for energetic kids, the other for thrill-seeking adults. Movement has never looked so stylish!",
+    image: MPOriginal,
   },
   {
     id: "4",
-    title: "Mindful Space",
+    title: "Mindful Space Logo Design",
     tasks: "Logo design",
-    details: "Insert text here",
+    skills: "Adobe Illustrator, Adobe Photoshop",
+    details:
+      "Developed a calming, clean logo for a psychology-based company focused on mental wellness, reflection, and creating a peaceful space for growth.",
+    image: MindfulSpace,
   },
 ];
+
+export const projectDetails = {
+  0: {
+    title: "Sky Academy Website Design",
+    summary:
+      "A fresh concept for Sky Academy’s relaunch, including their new Barista Course announcement.",
+    goals:
+      "To design a website celebrating the reopening of Sky Academy and introduce the exciting Barista Course.",
+    process:
+      "Started with wireframes, moved into mockups in Figma, and iterated based on feedback.",
+    tools: "Figma",
+    outcome:
+      "Client loved the clean layout and how it clearly conveyed the course info. I refined my layout and copy balance.",
+  },
+  1: {
+    title: "Elite Global Academy Logo Design",
+    summary:
+      "A bold visual identity created for the launch of Elite Global Academy, a new education center with a focus on excellence and innovation.",
+    goals:
+      "The client needed a logo to capture the prestige and ambition of their newly launched academy. The design had to be memorable, professional, and suitable for both digital and printed media.",
+    process:
+      "Initial sketches explored shapes inspired by books, shields, and abstract E motifs. After client feedback, we refined one concept that communicated strength and trust, paired with a modern typeface.",
+    tools: "Adobe Fresco, Adobe Illustrator",
+    outcome:
+      "The logo was received with enthusiasm by the client and their partners. It gave their launch materials a cohesive and professional look. I deepened my understanding of branding for new ventures.",
+  },
+  2: {
+    title: "English Learning Resources for Students",
+    summary:
+      "A bright, engaging brochure created for parents, packed with English learning resources for students based on CEFR levels.",
+    goals:
+      "This brochure was intended to help parents support their children’s English development outside of class. The materials needed to be easy to follow, CEFR-aligned, and visually engaging for kids.",
+    process:
+      "Started with basic wireframes to organize content effectively. Concepts played with colorful illustrations and icons. The final version featured bite-sized tips and resource suggestions, wrapped in a friendly design.",
+    tools: "Canva, Adobe Illustrator",
+    outcome:
+      "Parents appreciated the clarity and usefulness of the content. The kids loved the colors and visuals. I learned how to better present educational information in a parent-friendly format.",
+  },
+  3: {
+    title: "MoveParkour & MoveParkour Kids Logo Design",
+    summary:
+      "Two energetic logos crafted for a Parkour company’s adult and kids’ branches — designed to represent agility, motion, and community.",
+    goals:
+      "The client wanted two distinct yet cohesive logos — one for adults, one for kids. Both needed to reflect the movement and energy of Parkour while being adaptable across apparel and marketing materials.",
+    process:
+      "Started with fluid shapes and bold lines to represent movement. For the kids’ version, we added playful elements and rounded edges. The final designs are visually connected but unique.",
+    tools: "Adobe Photoshop, Adobe Illustrator",
+    outcome:
+      "The client loved the energy and versatility of the designs. The adult and kids’ communities responded positively, especially when the logos were used on merch. I learned how to tailor design tone for different age groups under one brand umbrella.",
+  },
+  4: {
+    title: "MindfulSpace Logo Design",
+    summary:
+      "A minimalist and calming logo for a psychology-based company focused on creating supportive mental health environments.",
+    goals:
+      "The founder wanted a logo that communicated trust, calmness, and introspection. It needed to appeal to adults seeking mental health support while staying modern and professional.",
+    process:
+      "Initial concepts explored organic shapes and subtle color schemes. The final design used soft curves and balanced symmetry to evoke peace and mindfulness.",
+    tools: "Adobe Illustrator, Adobe Photoshop",
+    outcome:
+      "The client was very pleased with the sense of calm the logo conveyed. It gave the brand a polished yet empathetic visual identity. I gained insight into how visual design can support mental health messaging.",
+  },
+};
 
 export const experience = [
   {
