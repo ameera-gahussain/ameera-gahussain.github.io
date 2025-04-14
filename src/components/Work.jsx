@@ -26,7 +26,7 @@ const closeModal = () => {
       <div className="container py-7 lg:py-16 xl:py-20 z-1">
         <h2 className="h2">./Work</h2>
         <div className="flex flex-row justify-center h-full mt-8 mb-10">
-            <div className="flex flex-wrap flex-col lg:flex-row justify-around">
+            <div className="flex flex-wrap flex-col md:flex-row justify-around">
           {work.map((item) => {
                     
                       return (
