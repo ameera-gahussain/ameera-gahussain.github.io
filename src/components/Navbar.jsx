@@ -40,9 +40,9 @@ const Navbar = () => {
         <nav
           className={`${
             openNavigation ? "flex" : "hidden"
-          } fixed top-[4rem] left-0 right-0 bottom-0 bg-n-3 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
+          } fixed top-[4rem] left-0 right-0 bottom-0 bg-n-3 lg:static lg:flex lg:mx-auto lg:bg-transparent w-full`}
         >
-          <div className="relative z-2 flex flex-col justify-center items-center m-auto lg:flex-row">
+          <div className="relative z-2 flex flex-col items-center justify-center mx-auto lg:flex-row lg:ml-auto lg:mr-0">
             {navigation.map((item) => (
               <a
                 key={item.id}

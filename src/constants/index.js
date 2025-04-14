@@ -175,61 +175,89 @@ export const projectDetails = {
     title: "Sky Academy Website Design",
     summary:
       "A fresh concept for Sky Academy’s relaunch, including their new Barista Course announcement.",
-    goals:
-      "To design a website celebrating the reopening of Sky Academy and introduce the exciting Barista Course.",
+    goalsIntro: "Create an inviting, informative website to:",
+    goals: [
+      "Announce Sky Academy’s post-pandemic reopening",
+      "Highlight the new Barista Course (key revenue driver)",
+      "Appeal to young adult learners with vibrant, energetic visuals",
+    ],
     process:
       "Started with wireframes, moved into mockups in Figma, and iterated based on feedback.",
     tools: "Figma",
-    outcome:
-      "Client loved the clean layout and how it clearly conveyed the course info. I refined my layout and copy balance.",
+    outcome: [
+      "Learned: Balancing institutional credibility with youth appeal is tricky—coffee imagery bridged the gap!",
+      "Client Response: Client loved the clean layout and how it clearly conveyed the course info",
+    ],
   },
   1: {
     title: "Elite Global Academy Logo Design",
     summary:
       "A bold visual identity created for the launch of Elite Global Academy, a new education center with a focus on excellence and innovation.",
-    goals:
-      "The client needed a logo to capture the prestige and ambition of their newly launched academy. The design had to be memorable, professional, and suitable for both digital and printed media.",
+    goalsIntro: "Develop a brand identity to:",
+    goals: [
+      "Position Elite Global as a premium, future-focused institution",
+      "Support their flagship center launch with cohesive print/digital assets",
+    ],
     process:
       "Initial sketches explored shapes inspired by books, shields, and abstract E motifs. After client feedback, we refined one concept that communicated strength and trust, paired with a modern typeface.",
     tools: "Adobe Fresco, Adobe Illustrator",
-    outcome:
-      "The logo was received with enthusiasm by the client and their partners. It gave their launch materials a cohesive and professional look. I deepened my understanding of branding for new ventures.",
+    outcome: [
+      "Learned: Startups value flexibility—designed alternate logo lockups for different use cases.",
+      "Client Response: The logo was received with enthusiasm by the client and their partners. It gave their launch materials a cohesive and professional look.",
+    ],
   },
   2: {
     title: "English Learning Resources for Students",
     summary:
       "A bright, engaging brochure created for parents, packed with English learning resources for students based on CEFR levels.",
-    goals:
-      "This brochure was intended to help parents support their children’s English development outside of class. The materials needed to be easy to follow, CEFR-aligned, and visually engaging for kids.",
+    goalsIntro: "Design printable/digital resources to:",
+    goals: [
+      "Align with CEFR standards for credibility",
+      "Engage students (ages 8–12) with games and visuals",
+      "Simplify parent involvement with clear instructions",
+    ],
     process:
       "Started with basic wireframes to organize content effectively. Concepts played with colorful illustrations and icons. The final version featured bite-sized tips and resource suggestions, wrapped in a friendly design.",
     tools: "Canva, Adobe Illustrator",
-    outcome:
-      "Parents appreciated the clarity and usefulness of the content. The kids loved the colors and visuals. I learned how to better present educational information in a parent-friendly format.",
+    outcome: [
+      "Learned: How to design to appeal to both parents and students.",
+      "Client Response: Parents appreciated the clarity and usefulness of the content. The kids loved the colors and visuals.",
+    ],
   },
   3: {
     title: "MoveParkour & MoveParkour Kids Logo Design",
     summary:
       "Two energetic logos crafted for a Parkour company’s adult and kids’ branches — designed to represent agility, motion, and community.",
+    goalsIntro: "Create distinct but connected logos to:",
     goals:
       "The client wanted two distinct yet cohesive logos — one for adults, one for kids. Both needed to reflect the movement and energy of Parkour while being adaptable across apparel and marketing materials.",
-    process:
-      "Started with fluid shapes and bold lines to represent movement. For the kids’ version, we added playful elements and rounded edges. The final designs are visually connected but unique.",
+    process: [
+      "Differentiate adult/kid audiences",
+      "Capture parkour’s dynamism without clichés (no stick-figure backflips!)",
+    ],
     tools: "Adobe Photoshop, Adobe Illustrator",
-    outcome:
-      "The client loved the energy and versatility of the designs. The adult and kids’ communities responded positively, especially when the logos were used on merch. I learned how to tailor design tone for different age groups under one brand umbrella.",
+    outcome: [
+      "Learned: To create subtle changes in logo to maintain consistency with the parent brand.",
+      "Client Response: The client loved the energy and versatility of the designs. The adult and kids’ communities responded positively, especially when the logos were used on merch.",
+    ],
   },
   4: {
     title: "MindfulSpace Logo Design",
     summary:
       "A minimalist and calming logo for a psychology-based company focused on creating supportive mental health environments.",
-    goals:
-      "The founder wanted a logo that communicated trust, calmness, and introspection. It needed to appeal to adults seeking mental health support while staying modern and professional.",
+    goalsIntro: "Design a logo to:",
+    goals: [
+      "Avoid overused zen symbols (lotus flowers, om signs)",
+      "Evoke safety and growth",
+      "Work across therapy materials",
+    ],
     process:
       "Initial concepts explored organic shapes and subtle color schemes. The final design used soft curves and balanced symmetry to evoke peace and mindfulness.",
     tools: "Adobe Illustrator, Adobe Photoshop",
-    outcome:
-      "The client was very pleased with the sense of calm the logo conveyed. It gave the brand a polished yet empathetic visual identity. I gained insight into how visual design can support mental health messaging.",
+    outcome: [
+      "Learned: Gained insight into how visual design can support mental health messaging via simple shapes that deliver complex messaging.",
+      "Client Response: The client was very pleased with the sense of calm the logo conveyed. It gave the brand a polished yet empathetic visual identity.",
+    ],
   },
 };
 
