@@ -15,7 +15,7 @@ const Section = ({ title, text, bullets, images, altPrefix, link, linkLabel }) =
           download
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block text-blue-500 underline hover:text-blue-700 mt-2"
+          className="inline-block text-n-2 underline hover:text-blue-600 mt-2"
         >
           {linkLabel || "Download PDF"}
         </a>

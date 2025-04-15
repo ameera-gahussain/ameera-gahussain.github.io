@@ -1,10 +1,6 @@
-import { spinnerSolid, taskAlt } from "../assets";
-import { work, projectDetails } from "../constants";
-import { GradientLight } from "./designs/Work";
+import { work } from "../constants";
 import Section from "./Section";
 import { useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
-import { WorkImages } from "./designs/WorkImgBlock";
 import { WorkModal } from "./WorkModal";
 
 
@@ -47,7 +43,7 @@ const closeModal = () => {
                          className="max-h-full max-w-full object-contain"
                          />
                          </div>
-                           <div><h5 className="h5 mb-5">{item.title}</h5></div>
+                           <div><h5 className="h5 mt-2 mb-4">{item.title}</h5></div>
                     
                            <div className="flex flex-wrap gap-2 mb-4">
                             {item.skills.split(", ").map((skill, index) => (
@@ -59,8 +55,8 @@ const closeModal = () => {
                            <div><p className="body-2 text-n-2">
                              <b>Project Overview: </b>{item.details}
                            </p>
-                           <button className="mt-2 underline text-blue-500 hover:text-blue-700" onClick={() => openModal(item)}>
-                            More Details
+                           <button className="mt-2 underline text-n-2 hover:text-blue-600" onClick={() => openModal(item)}>
+                            View Project
                             </button>
 
                            </div>

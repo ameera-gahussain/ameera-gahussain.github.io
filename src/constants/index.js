@@ -197,7 +197,7 @@ export const projectDetails = {
       text: "Started with wireframes, moved into mockups in Figma, and iterated based on feedback.",
       images: [],
     },
-    tools: "Figma",
+    tools: "Figma, Webflow",
     outcome: [
       "Learned: Short, punchy service descriptions, using tabs for displaying wok experience and studying newspaper print design to achieve the current first draft aesthetic.",
       "Client Response: Client loved the clean layout draft and how it clearly displays services offered and analytics.",
