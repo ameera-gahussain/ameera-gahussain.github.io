@@ -65,7 +65,7 @@ export const socials = [
     id: "3",
     title: "Discord",
     iconUrl: discordSolid,
-    url: "https://discordapp.com/users/YOUR_USER_ID",
+    url: "https://discordapp.com/users/knightowl87",
   },
   {
     id: "4",
@@ -235,11 +235,11 @@ export const projectDetails = {
     goalsIntro: "Design printable/digital resources to:",
     goals: [
       "Align with CEFR standards for credibility",
-      "Engage students (ages 8–12) with games and visuals",
-      "Simplify parent involvement with clear instructions",
+      "Engage students (ages 8–12) with visuals and clickable links",
+      "Simplify parent involvement with clear information and resources",
     ],
     process: {
-      text: "Started with basic wireframes to organize content effectively. Concepts played with colorful illustrations and icons. The final version featured bite-sized tips and resource suggestions, wrapped in a friendly design.",
+      text: "Started with basic wireframes in Canva to organize content effectively. Concepts played with colorful illustrations and icons. The final version featured bite-sized tips and resource suggestions, wrapped in a friendly design.",
       images: [],
     },
     tools: "Canva, Adobe Illustrator",
