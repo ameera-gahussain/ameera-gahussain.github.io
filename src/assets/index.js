@@ -19,6 +19,7 @@ import MindfulSpaceLogo from "./MindfulSpaceLogo.png";
 import mpkidsLogoXTag from "./mpkidsLogoXTag.png";
 import mpkidsTag from "./mpkidsTag.png";
 import mpkLogo from "./mpkLogo.png";
+import smmcWebDes from "./smmcWebDes.png";
 
 import discordSolid from "./socials/discordSolid.svg";
 import freeCCSolid from "./socials/freeCCSolid.svg";
@@ -51,4 +52,5 @@ export {
   mpkidsLogoXTag,
   mpkidsTag,
   mpkLogo,
+  smmcWebDes,
 };

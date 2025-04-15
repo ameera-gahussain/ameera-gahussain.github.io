@@ -33,8 +33,8 @@ const Navbar = () => {
         openNavigation ? "bg-n-3" : "bg-n-3/90 backdrop-blur-sm"
       }`}
     >
-      <div className="flex items-center px-6 lg:px-6.5 xl:px-10 max-lg:py-3">
-        <a className="block w-[7rem] xl:mr-5" href="#hero">
+      <div className="flex items-center px-7 lg:px-7.5 xl:px-10 max-lg:py-3">
+        <a className="flex items-center justify-center w-[7rem] xl:mr-5" href="#hero">
           <img src={home} width={30} height={35} alt="home" />
         </a>
         <nav

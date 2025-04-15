@@ -12,16 +12,25 @@ const About = () => {
             <div>
               <p className="p">
                 {about.map((item) => (
-                  <div className="mb-3 py-3" key={item.id}>
+                  <div className="mb-1 py-3" key={item.id}>
                     {item.text && (
                       <p className="body-2 mt-3 text-n-2">{item.text}</p>
                     )}
                   </div>
                 ))}
               </p>
+              <p className="p">
+                {about.map((item) => (
+                  <div className="mb-2 py-2" key={item.id}>
+                    {item.text2 && (
+                      <p className="body-2 mt-1 text-n-2">{item.text2}</p>
+                    )}
+                  </div>
+                ))}
+              </p>
               <div>
                 <p className="body-2 mt-3 text-n-2">
-                  Here are some technologies I&apos;ve&nbsp;been working with:
+                  These are some technologies I&apos;ve&nbsp;been working with:
                 </p>
               </div>
               <div className="mt-3 grid grid-cols-2 gap-2">
@@ -42,16 +51,7 @@ const About = () => {
               </div>
               <p className="p">
                 {about.map((item) => (
-                  <div className="mb-2 py-3" key={item.id}>
-                    {item.text2 && (
-                      <p className="body-2 mt-3 text-n-2">{item.text2}</p>
-                    )}
-                  </div>
-                ))}
-              </p>
-              <p className="p">
-                {about.map((item) => (
-                  <div className="mb-3 py-2" key={item.id}>
+                  <div className="mb-3 py-3" key={item.id}>
                     {item.text3 && (
                       <p className="body-2 mt-2 text-n-2">{item.text3}</p>
                     )}

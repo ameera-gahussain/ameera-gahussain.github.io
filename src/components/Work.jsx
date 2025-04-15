@@ -4,6 +4,8 @@ import { GradientLight } from "./designs/Work";
 import Section from "./Section";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import { WorkImages } from "./designs/WorkImgBlock";
+import { WorkModal } from "./WorkModal";
 
 
 const Work = () => {
@@ -38,7 +40,7 @@ const closeModal = () => {
                        
                        <div className="w-full max-w-[28rem] md:max-w-[30rem] lg:max-w-[33rem] xl:max-w-[35rem] h-[37rem] p-[2.3rem] flex flex-col justify-between overflow-hidden pointer-events-auto">
                          <div className="flex flex-col h-full">
-                         <div className="w-full h-25 flex items-center justify-center overflow-hidden rounded-[2.5rem] mb-2 bg-white p-4">
+                         <div className="w-full h-[25rem] flex items-center justify-center overflow-hidden rounded-[2.5rem] mb-2 bg-white p-4">
                          <img
                          src={item.image}
                          alt={item.title}
@@ -64,89 +66,21 @@ const closeModal = () => {
                            </div>
                            
                          </div>
+                         </div>
+                         </div>
+                         );
+                         })}
+                         </div>
+                         <WorkModal
+                         isModalOpen={isModalOpen}
+                         selectedProject={selectedProject}
+                         closeModal={closeModal}
+                         />
 
-             </div>
-             
-           </div>
-           
-              
-            );
-            
-          })}
-            </div>
-            <AnimatePresence>
-  {isModalOpen && selectedProject && (
-    <motion.div
-      className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      transition={{ duration: 0.3 }}
-    >
-      <motion.div
-        className="bg-n-5 p-6 rounded-lg w-[90%] max-w-xl shadow-lg relative overflow-y-auto max-h-[90vh]"
-        initial={{ y: "-20px", opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        exit={{ y: "20px", opacity: 0 }}
-        transition={{ duration: 0.3 }}
-      >
-        <button
-          onClick={closeModal}
-          className="absolute top-2 right-4 text-n-3 hover:text-black text-2xl font-bold"
-        >
-          &times;
-        </button>
-
-        <h3 className="text-n-3 text-xl font-extrabold mb-2">{selectedProject.title}</h3>
-        <p className="text-n-2 mb-4">{projectDetails[selectedProject.id]?.summary}</p>
-
-        <h4 className="text-n-3 font-bold">Project Goals / Brief</h4>
-        {projectDetails[selectedProject.id]?.goalsIntro && (
-  <p className="text-n-2 mb-2">{projectDetails[selectedProject.id].goalsIntro}</p>
-)}
-
-<ul className="list-disc list-inside text-n-2 mb-4 space-y-1">
-  {projectDetails[selectedProject.id]?.goals.map((goal, index) => (
-    <li key={index}>{goal}</li>
-  ))}
-</ul>
-
-        <h4 className="text-n-3 font-bold">Process</h4>
-        <p className="text-n-2 mb-4">{projectDetails[selectedProject.id]?.process}</p>
-
-        <h4 className="text-n-3 font-bold">Tools Used</h4>
-        <p className="text-n-2 mb-4">{projectDetails[selectedProject.id]?.tools}</p>
-
-        <h4 className="text-n-3 font-bold">Outcome</h4>
-
-<ul className="list-disc list-inside text-n-2 mb-4 space-y-1">
-  {projectDetails[selectedProject.id]?.outcome.map((outcome, index) => (
-    <li key={index}>{outcome}</li>
-  ))}
-</ul>
-
-        {projectDetails[selectedProject.id]?.images && (
-          <div className="space-y-4 pt-2">
-            {projectDetails[selectedProject.id].images.map((src, index) => (
-              <img
-                key={index}
-                src={src}
-                alt={`Project ${selectedProject.id} image ${index + 1}`}
-                className="w-full rounded shadow"
-              />
-            ))}
-          </div>
-        )}
-      </motion.div>
-    </motion.div>
-  )}
-</AnimatePresence>
-
-        </div>
-      </div>
-    </Section>
-  );
-  
-};
+                                              </div>
+                                              </div>
+                                              </Section>
+                                              );
+                                            };
 
 export default Work;

@@ -21,6 +21,7 @@ import {
   mpkidsLogoXTag,
   mpkidsTag,
   mpkLogo,
+  smmcWebDes,
 } from "../assets";
 
 export const navigation = [
@@ -78,10 +79,11 @@ export const about = [
   {
     id: "0",
     title: "About Me",
-    text: "Hey there! I'm Ameera, a web developer, designer, and graphic artist passionate about bringing creative visions to life online. My journey into code and design began with curiosity and a whole lot of self-driven exploration—think late nights, countless tutorials, and an unstoppable drive to learn. This independent learning style has shaped my diverse skill set, sharpened my problem-solving abilities, and fueled my love for tackling new challenges. I’m always eager to grow, stay ahead of trends, and push creative boundaries. Whether you need a sleek website, a standout logo, or a full brand refresh, let’s collaborate and create something amazing!",
+    text: "I'm a creative professional pivoting into the world of web and graphic design, after over a decade of experience in education, communications, and content development. I’ve led teams, managed projects, and designed learning journeys—now I’m designing digital ones.",
     text2:
-      "When I'm not working, I go for long drives, coffee in cafes, madness with my cats and a good curl up with a book.",
-    text3: "Currently working hard for a Triumph Speed 400.",
+      "My passion lies in creating beautiful, purposeful designs that make information accessible, engaging, and intuitive. Whether it's a responsive website, a clean visual identity, or an interactive layout, I bring a deep sense of empathy, storytelling, and attention to detail to every project.",
+    text3:
+      "I'm currently expanding my skills in web development and UI/UX design while building a portfolio that reflects both my past experience and future direction.",
   },
 ];
 
@@ -131,12 +133,12 @@ export const techSkills = [
 export const work = [
   {
     id: "0",
-    title: "Sky Academy Website Design",
+    title: "Social Media Marketing Consultant Website",
     tasks: "Website concept design",
-    skills: "Figma",
+    skills: "Figma, Webflow",
     details:
-      "Celebrating Sky Academy’s reopening with a fresh website—featuring their exciting new Barista Course (because caffeine + education = the perfect blend!).",
-    image: "",
+      "A sleek and professional website designed for a social media marketing consultant to showcase services, build credibility, and attract new clients with ease.",
+    image: smmcWebDes,
   },
   {
     id: "1",
@@ -178,34 +180,44 @@ export const work = [
 
 export const projectDetails = {
   0: {
-    title: "Sky Academy Website Design",
-    summary:
-      "A fresh concept for Sky Academy’s relaunch, including their new Barista Course announcement.",
+    title: "Social Media Marketing Consultant Website",
+    summary: {
+      text: "A sleek, conversion-focused website designed to attract new clients by clearly presenting services, expertise, and social proof—turning visitors into booked calls.",
+      images: [],
+      downloadUrl:
+        "https://preview.webflow.com/preview/johndoeconsulting?utm_medium=preview_link&utm_source=designer&utm_content=johndoeconsulting&preview=1e1e5b3fba806f0da1d01f46fab5de6c&workflow=preview",
+      downloadUrlLabel: "See how it looks like here",
+    },
     goalsIntro: "Create an inviting, informative website to:",
     goals: [
-      "Announce Sky Academy’s post-pandemic reopening",
-      "Highlight the new Barista Course (key revenue driver)",
-      "Appeal to young adult learners with vibrant, energetic visuals",
+      "Clearly display core services (e.g., content strategy, ad management, analytics)",
+      "Showcase previous clients and work experience",
     ],
-    process:
-      "Started with wireframes, moved into mockups in Figma, and iterated based on feedback.",
+    process: {
+      text: "Started with wireframes, moved into mockups in Figma, and iterated based on feedback.",
+      images: [],
+    },
     tools: "Figma",
     outcome: [
-      "Learned: Balancing institutional credibility with youth appeal is tricky—coffee imagery bridged the gap!",
-      "Client Response: Client loved the clean layout and how it clearly conveyed the course info",
+      "Learned: Short, punchy service descriptions, using tabs for displaying wok experience and studying newspaper print design to achieve the current first draft aesthetic.",
+      "Client Response: Client loved the clean layout draft and how it clearly displays services offered and analytics.",
     ],
   },
   1: {
     title: "Elite Global Academy Logo Design",
-    summary:
-      "A bold visual identity created for the launch of Elite Global Academy, a new education center with a focus on excellence and innovation.",
+    summary: {
+      text: "A bold visual identity created for the launch of Elite Global Academy, a new education center with a focus on excellence and innovation.",
+      images: [EGALogoXTag],
+    },
     goalsIntro: "Develop a brand identity to:",
     goals: [
       "Position Elite Global as a premium, future-focused institution",
       "Support their flagship center launch with cohesive print/digital assets",
     ],
-    process:
-      "Initial sketches explored shapes inspired by books, shields, and abstract E motifs. After client feedback, we refined one concept that communicated strength and trust, paired with a modern typeface.",
+    process: {
+      text: "Initial sketches explored shapes inspired by books, shields, and abstract E motifs. After client feedback, we refined one concept that communicated strength and trust, paired with a modern typeface.",
+      images: [EGAMocks1, EGAMocks2],
+    },
     tools: "Adobe Fresco, Adobe Illustrator",
     outcome: [
       "Learned: Startups value flexibility—designed alternate logo lockups for different use cases.",
@@ -214,16 +226,22 @@ export const projectDetails = {
   },
   2: {
     title: "English Learning Resources for Students",
-    summary:
-      "A bright, engaging brochure created for parents, packed with English learning resources for students based on CEFR levels.",
+    summary: {
+      text: "A bright, engaging brochure created for parents, packed with English learning resources for students based on CEFR levels.",
+      images: [],
+      downloadUrl: "/resources/engPriRes.pdf",
+      downloadUrlLabel: "Download the PDF file here",
+    },
     goalsIntro: "Design printable/digital resources to:",
     goals: [
       "Align with CEFR standards for credibility",
       "Engage students (ages 8–12) with games and visuals",
       "Simplify parent involvement with clear instructions",
     ],
-    process:
-      "Started with basic wireframes to organize content effectively. Concepts played with colorful illustrations and icons. The final version featured bite-sized tips and resource suggestions, wrapped in a friendly design.",
+    process: {
+      text: "Started with basic wireframes to organize content effectively. Concepts played with colorful illustrations and icons. The final version featured bite-sized tips and resource suggestions, wrapped in a friendly design.",
+      images: [],
+    },
     tools: "Canva, Adobe Illustrator",
     outcome: [
       "Learned: How to design to appeal to both parents and students.",
@@ -232,15 +250,19 @@ export const projectDetails = {
   },
   3: {
     title: "MoveParkour & MoveParkour Kids Logo Design",
-    summary:
-      "Two energetic logos crafted for a Parkour company’s adult and kids’ branches — designed to represent agility, motion, and community.",
+    summary: {
+      text: "Two energetic logos crafted for a Parkour company’s adult and kids’ branches — designed to represent agility, motion, and community.",
+      images: [mpkLogo, mpkidsTag],
+    },
     goalsIntro: "Create distinct but connected logos to:",
     goals: [
       "Differentiate adult/kid audiences",
       "Capture parkour’s dynamism without clichés (no stick-figure backflips!)",
     ],
-    process:
-      "Started with fluid shapes and bold lines to represent movement. For the kids’ version, we added playful elements and rounded edges. The final designs are visually connected but unique.",
+    process: {
+      text: "Started with fluid shapes and bold lines to represent movement. For the kids’ version, we added playful elements and rounded edges. The final designs are visually connected but unique.",
+      images: [],
+    },
     tools: "Adobe Photoshop, Adobe Illustrator",
     outcome: [
       "Learned: To create subtle changes in logo to maintain consistency with the parent brand.",
@@ -249,16 +271,20 @@ export const projectDetails = {
   },
   4: {
     title: "MindfulSpace Logo Design",
-    summary:
-      "A minimalist and calming logo for a psychology-based company focused on creating supportive mental health environments.",
+    summary: {
+      text: "A minimalist and calming logo for a psychology-based company focused on creating supportive mental health environments.",
+      images: [MindfulSpace],
+    },
     goalsIntro: "Design a logo to:",
     goals: [
       "Avoid overused zen symbols (lotus flowers, om signs)",
       "Evoke safety and growth",
       "Work across therapy materials",
     ],
-    process:
-      "Initial concepts explored organic shapes and subtle color schemes. The final design used soft curves and balanced symmetry to evoke peace and mindfulness.",
+    process: {
+      text: "Initial concepts explored organic shapes and subtle color schemes. The final design used soft curves and balanced symmetry to evoke peace and mindfulness.",
+      images: [],
+    },
     tools: "Adobe Illustrator, Adobe Photoshop",
     outcome: [
       "Learned: Gained insight into how visual design can support mental health messaging via simple shapes that deliver complex messaging.",
