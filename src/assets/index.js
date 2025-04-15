@@ -8,11 +8,17 @@ import taskAlt from "./taskAlt.svg";
 import spinnerSolid from "./spinnerSolid.svg";
 import arrowUpBracketSolid from "./arrowUpBracketSolid.svg";
 import upRightSquareSolid from "./upRightSquareSolid.svg";
-import EliteLogoPNG01 from "./EliteLogoPNG01.png";
-import EliteLogoPNG02 from "./EliteLogoPNG02.png";
 import MindfulSpace from "./MindfulSpace.png";
-import MPOriginal from "./MPOriginal.png";
-import readingResource from "./readingResource.png";
+import EGALogo from "./EGALogo.png";
+import EGALogoXTag from "./EGALogoXTag.png";
+import EGAMocks1 from "./EGAMocks1.png";
+import EGAMocks2 from "./EGAMocks2.png";
+import EGATag from "./EGATag.png";
+import eliteEngRe from "./eliteEngRe.png";
+import MindfulSpaceLogo from "./MindfulSpaceLogo.png";
+import mpkidsLogoXTag from "./mpkidsLogoXTag.png";
+import mpkidsTag from "./mpkidsTag.png";
+import mpkLogo from "./mpkLogo.png";
 
 import discordSolid from "./socials/discordSolid.svg";
 import freeCCSolid from "./socials/freeCCSolid.svg";
@@ -34,9 +40,15 @@ export {
   spinnerSolid,
   arrowUpBracketSolid,
   upRightSquareSolid,
-  EliteLogoPNG01,
-  EliteLogoPNG02,
   MindfulSpace,
-  MPOriginal,
-  readingResource,
+  EGALogo,
+  EGALogoXTag,
+  EGAMocks1,
+  EGAMocks2,
+  EGATag,
+  eliteEngRe,
+  MindfulSpaceLogo,
+  mpkidsLogoXTag,
+  mpkidsTag,
+  mpkLogo,
 };

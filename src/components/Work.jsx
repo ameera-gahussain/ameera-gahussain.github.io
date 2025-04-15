@@ -38,7 +38,7 @@ const closeModal = () => {
                        
                        <div className="w-full max-w-[28rem] md:max-w-[30rem] lg:max-w-[33rem] xl:max-w-[35rem] h-[37rem] p-[2.3rem] flex flex-col justify-between overflow-hidden pointer-events-auto">
                          <div className="flex flex-col h-full">
-                         <div className="w-full h-25 flex items-center justify-center overflow-hidden rounded-[2.5rem] mb-2 bg-sky-50 p-4">
+                         <div className="w-full h-25 flex items-center justify-center overflow-hidden rounded-[2.5rem] mb-2 bg-white p-4">
                          <img
                          src={item.image}
                          alt={item.title}

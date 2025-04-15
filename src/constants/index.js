@@ -10,11 +10,17 @@ import {
   linkedinSolid,
   discordSolid,
   arrowUpBracketSolid,
-  EliteLogoPNG01,
-  EliteLogoPNG02,
   MindfulSpace,
-  MPOriginal,
-  readingResource,
+  EGALogo,
+  EGALogoXTag,
+  EGAMocks1,
+  EGAMocks2,
+  EGATag,
+  eliteEngRe,
+  MindfulSpaceLogo,
+  mpkidsLogoXTag,
+  mpkidsTag,
+  mpkLogo,
 } from "../assets";
 
 export const navigation = [
@@ -130,7 +136,7 @@ export const work = [
     skills: "Figma",
     details:
       "Celebrating Sky Academy’s reopening with a fresh website—featuring their exciting new Barista Course (because caffeine + education = the perfect blend!).",
-    image: EliteLogoPNG02,
+    image: "",
   },
   {
     id: "1",
@@ -139,7 +145,7 @@ export const work = [
     skills: "Adobe Fresco, Adobe Illustrator",
     details:
       "Designed the brand identity for this ambitious new academy—helping them launch their first center with sleek, aspirational visuals.",
-    image: EliteLogoPNG01,
+    image: EGALogo,
   },
   {
     id: "2",
@@ -148,7 +154,7 @@ export const work = [
     skills: "Canva, Adobe Illustrator",
     details:
       "Fun, CEFR-aligned English materials for students—packaged for parents to say, ‘Here’s homework you’ll actually want to do!’",
-    image: readingResource,
+    image: eliteEngRe,
   },
   {
     id: "3",
@@ -157,7 +163,7 @@ export const work = [
     skills: "Adobe Photoshop, Adobe Illustrator",
     details:
       "Designed dynamic logos for two Parkour brands — one for energetic kids, the other for thrill-seeking adults. Movement has never looked so stylish!",
-    image: MPOriginal,
+    image: mpkLogo,
   },
   {
     id: "4",
@@ -166,7 +172,7 @@ export const work = [
     skills: "Adobe Illustrator, Adobe Photoshop",
     details:
       "Developed a calming, clean logo for a psychology-based company focused on mental wellness, reflection, and creating a peaceful space for growth.",
-    image: MindfulSpace,
+    image: MindfulSpaceLogo,
   },
 ];
 
@@ -229,16 +235,16 @@ export const projectDetails = {
     summary:
       "Two energetic logos crafted for a Parkour company’s adult and kids’ branches — designed to represent agility, motion, and community.",
     goalsIntro: "Create distinct but connected logos to:",
-    goals:
-      "The client wanted two distinct yet cohesive logos — one for adults, one for kids. Both needed to reflect the movement and energy of Parkour while being adaptable across apparel and marketing materials.",
-    process: [
+    goals: [
       "Differentiate adult/kid audiences",
       "Capture parkour’s dynamism without clichés (no stick-figure backflips!)",
     ],
+    process:
+      "Started with fluid shapes and bold lines to represent movement. For the kids’ version, we added playful elements and rounded edges. The final designs are visually connected but unique.",
     tools: "Adobe Photoshop, Adobe Illustrator",
     outcome: [
       "Learned: To create subtle changes in logo to maintain consistency with the parent brand.",
-      "Client Response: The client loved the energy and versatility of the designs. The adult and kids’ communities responded positively, especially when the logos were used on merch.",
+      "Client Response: The client loved the energy and versatility of the designs. The adult and kids’ communities responded positively, especially when the logos were used on merchandise.",
     ],
   },
   4: {
