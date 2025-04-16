@@ -102,11 +102,11 @@ export const techSkills = [
   },
   {
     id: "3",
-    skill: "HTML",
+    skill: "HTML, CSS",
   },
   {
     id: "4",
-    skill: "CSS",
+    skill: "Vite",
   },
   {
     id: "5",
