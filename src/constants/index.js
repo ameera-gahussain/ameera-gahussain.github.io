@@ -14,7 +14,6 @@ import {
   EGALogo,
   EGALogoXTag,
   EGAMocks1,
-  EGAMocks2,
   EGATag,
   eliteEngRe,
   MindfulSpaceLogo,
@@ -137,7 +136,7 @@ export const work = [
     tasks: "Website concept design",
     skills: "Figma, Webflow",
     details:
-      "A sleek and professional website designed for a social media marketing consultant to showcase services, build credibility, and attract new clients with ease.",
+      "A sleek and professional website designed for a social media marketing consultant to showcase services, build credibility, and attract new clients.",
     image: smmcWebDes,
   },
   {
@@ -146,7 +145,7 @@ export const work = [
     tasks: "Logo design",
     skills: "Adobe Fresco, Adobe Illustrator",
     details:
-      "Designed the brand identity for this ambitious new academy—helping them launch their first center with sleek, aspirational visuals.",
+      "Designed the brand identity for this ambitious new academy—helping them launch their first center with modern, aspirational visuals.",
     image: EGALogo,
   },
   {
@@ -155,7 +154,7 @@ export const work = [
     tasks: "Brochure design",
     skills: "Canva, Adobe Illustrator",
     details:
-      "Fun, CEFR-aligned English materials for students—packaged for parents to say, ‘Here’s homework you’ll actually want to do!’",
+      "Fun, CEFR-aligned English materials for students, packed with useful information and guides for parents.",
     image: eliteEngRe,
   },
   {
@@ -215,27 +214,27 @@ export const projectDetails = {
       "Support their flagship center launch with cohesive print/digital assets",
     ],
     process: {
-      text: "Initial sketches explored shapes inspired by books, shields, and abstract E motifs. After client feedback, we refined one concept that communicated strength and trust, paired with a modern typeface.",
-      images: [EGAMocks1, EGAMocks2],
+      text: "Initial sketches explored shapes inspired by books, shields, and abstract E motifs. After client feedback, I refined one concept that communicated experience and trust, paired with a modern typeface.",
+      images: [EGAMocks1],
     },
     tools: "Adobe Fresco, Adobe Illustrator",
     outcome: [
-      "Learned: Startups value flexibility—designed alternate logo lockups for different use cases.",
+      "Learned: Startups value flexibility so I designed alternate logo mockups for different use cases.",
       "Client Response: The logo was received with enthusiasm by the client and their partners. It gave their launch materials a cohesive and professional look.",
     ],
   },
   2: {
     title: "English Learning Resources for Students",
     summary: {
-      text: "A bright, engaging brochure created for parents, packed with English learning resources for students based on CEFR levels.",
+      text: "A bright, engaging brochure created for parents and students, packed with English learning resources based on CEFR levels.",
       images: [],
       downloadUrl: "/resources/engPriRes.pdf",
       downloadUrlLabel: "Download the PDF file here",
     },
     goalsIntro: "Design printable/digital resources to:",
     goals: [
-      "Align with CEFR standards for credibility",
-      "Engage students (ages 8–12) with visuals and clickable links",
+      "Align with CEFR standards",
+      "Engage students (ages 6–17) with visuals and clickable links",
       "Simplify parent involvement with clear information and resources",
     ],
     process: {
@@ -245,7 +244,7 @@ export const projectDetails = {
     tools: "Canva, Adobe Illustrator",
     outcome: [
       "Learned: How to design to appeal to both parents and students.",
-      "Client Response: Parents appreciated the clarity and usefulness of the content. The kids loved the colors and visuals.",
+      "Client Response: Parents appreciated the clarity and usefulness of the content. Students loved the colors and visuals.",
     ],
   },
   3: {
@@ -260,7 +259,7 @@ export const projectDetails = {
       "Capture parkour’s dynamism without clichés (no stick-figure backflips!)",
     ],
     process: {
-      text: "Started with fluid shapes and bold lines to represent movement. For the kids’ version, we added playful elements and rounded edges. The final designs are visually connected but unique.",
+      text: "Started with fluid shapes and bold lines to represent movement. For the kids’ version, I added playful elements and rounded edges. The final designs are visually connected but unique.",
       images: [],
     },
     tools: "Adobe Photoshop, Adobe Illustrator",

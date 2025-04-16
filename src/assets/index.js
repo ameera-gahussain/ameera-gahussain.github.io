@@ -12,7 +12,6 @@ import MindfulSpace from "./MindfulSpace.png";
 import EGALogo from "./EGALogo.png";
 import EGALogoXTag from "./EGALogoXTag.png";
 import EGAMocks1 from "./EGAMocks1.png";
-import EGAMocks2 from "./EGAMocks2.png";
 import EGATag from "./EGATag.png";
 import eliteEngRe from "./eliteEngRe.png";
 import MindfulSpaceLogo from "./MindfulSpaceLogo.png";
@@ -45,7 +44,6 @@ export {
   EGALogo,
   EGALogoXTag,
   EGAMocks1,
-  EGAMocks2,
   EGATag,
   eliteEngRe,
   MindfulSpaceLogo,

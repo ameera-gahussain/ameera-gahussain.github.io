@@ -6,7 +6,7 @@ export const WorkImages = ({ images, altPrefix }) => {
             key={index}
             src={src}
             alt={`${altPrefix} image ${index + 1}`}
-            className="w-full h-[23rem] object-cover rounded-[2.3rem] bg-white shadow p-2"
+            className="w-full h-[20rem] object-contain rounded-[2.3rem] bg-white shadow p-2"
           />
         ))}
       </div>
