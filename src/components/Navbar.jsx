@@ -34,7 +34,7 @@ const Navbar = () => {
       }`}
     >
       <div className="flex items-center px-7 lg:px-7.5 xl:px-10 max-lg:py-3">
-        <a className="flex items-center justify-center w-[7rem] xl:mr-5" href="#hero">
+        <a className="flex items-start md:items-center md:justify-center w-[7rem] xl:mr-5" href="#hero">
           <img src={home} width={30} height={35} alt="home" />
         </a>
         <nav
