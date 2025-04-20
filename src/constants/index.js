@@ -78,7 +78,7 @@ export const about = [
   {
     id: "0",
     title: "About Me",
-    text: "I'm a creative professional pivoting into the world of web and graphic design, after over a decade of experience in education, communications, and content development. I’ve led teams, managed projects, and designed learning journeys—now I’m designing digital ones.",
+    text: "I'm a creative professional pivoting into the world of web and graphic design, after over a decade of experience in education, communications, and content development. I’ve led teams, managed projects, designed learning journeys and now I’m designing digital ones.",
     text2:
       "My passion lies in creating beautiful, purposeful designs that make information accessible, engaging, and intuitive. Whether it's a responsive website, a clean visual identity, or an interactive layout, I bring a deep sense of empathy, storytelling, and attention to detail to every project.",
     text3:
