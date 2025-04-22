@@ -22,7 +22,7 @@ const Hero = () => {
           </div>
           <div className="flex items-center justify-center mt-2">
           <button className="text-sm mt-5 p-[0.65rem] border border-solid border-n-4 rounded-[2.5rem] transition delay-150 hover:bg-color-4 hover:translate-y-1">
-          <a href="/resources/Ameera16042025.pdf" download> Download My CV
+          <a href="/resources/ameeraFrontEnd.pdf" download> Download My CV
           </a>
             </button>
             </div>
