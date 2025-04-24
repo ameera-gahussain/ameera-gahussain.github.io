@@ -11,7 +11,7 @@ import "./index.css";
 
 const App = () => {
   useEffect(() => {
-    ReactGA.initialize('TRACKING ID');
+    ReactGA.initialize('G-LR2CQHEMDK');
     ReactGA.pageview(window.location.pathname + window.location.search)
     },[]);
   
