@@ -1,3 +1,5 @@
+import React, {useEffect} from 'react'
+import ReactGA from 'react-ga';
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -8,6 +10,11 @@ import Footer from "./components/Footer";
 import "./index.css";
 
 const App = () => {
+  useEffect(() => {
+    ReactGA.initialize('TRACKING ID');
+    ReactGA.pageview(window.location.pathname + window.location.search)
+    },[]);
+  
   return (
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
