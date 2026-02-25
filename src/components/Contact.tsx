@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <Section
       className="bg-n-3 py-7 lg:py-16 xl:py-20 z-1"
-      customPaddings
+      customPaddings=""
       id="sayhi"
     >
       <div className="container py-7 lg:py-16 xl:py-20 z-2 mx-auto">

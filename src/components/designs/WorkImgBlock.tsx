@@ -1,7 +1,12 @@
-export const WorkImages = ({ images, altPrefix }) => {
+interface WorkImagesProps {
+  images: string[];
+  altPrefix: string;
+}
+
+export const WorkImages = ({ images, altPrefix }: WorkImagesProps) => {
     return (
       <div className="space-y-4 mb-4">
-        {images.map((src, index) => (
+        {images.map((src: string, index: number) => (
           <img
             key={index}
             src={src}
