@@ -33,7 +33,7 @@ const Section = (props: WorkModalTypes) => {
           ))}
         </ul>
       )}
-      {props.images && props.images.length > 0 && <WorkImages images={props.images} altPrefix={props.altPrefix} />}
+      {props.images && props.images.length > 0 && <WorkImages images={props.images} altPrefix={props.altPrefix || "Project"} />}
     </div>
   );
 };
